@@ -21,9 +21,9 @@ export class MapService {
       attribution: `
       '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>,
       &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a>
-      &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+      &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors' 
       `
-    });
+    });                                       //www.openstreetmap.org/#map=17/15.338344/44.192910
     tiles.addTo(map);
   }
 
